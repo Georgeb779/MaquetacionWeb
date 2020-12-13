@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+/* html {
+      font-size: 6.25%;
+    } */
+
+.header--box {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 130px 80px 220px;
+  justify-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.head--title p {
+  font-size: 29px;
+  color: hsl(300, 43%, 22%);
+  font-family: "Spartan", sans-serif;
+  font-weight: bold;
+}
+
+.head--title {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.description__parrafo {
+  text-align: center;
+  font-family: "Spartan", sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  color: hsl(303, 10%, 53%);
+}
+
+.head--review {
+  display: grid;
+  gap: 12px;
+}
+
+.review__box {
+  display: grid;
+  justify-content: center;
+  background-color: #f7f2f8;
+  color: hsl(300, 43%, 22%);
+  font-family: "Spartan", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  width: 280px;
+  height: 70px;
+  border-radius: 8px;
+}
+
+.review__star {
+  justify-self: center;
+  background-image: url("/assest/images/icon-star.svg");
+  background-repeat: repeat-x;
+  background-position: center;
+  padding: 10px;
+  width: 65px;
+}
+
+.main--box {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: 95%;
+  grid-template-rows: 150px 150px 250px;
+}
+
+.person__introduction {
+  display: flex;
+  width: 150px;
+  padding: 12px;
+}
+
+.sub_presentation {
+  align-self: center;
+  margin: 5px;
+}
+
+.person--box {
+  padding: 20px;
+  background-color: #511f50;
+  border-radius: 10px;
+  height: 140px;
+  margin: 10px;
+}
+
+.person__name {
+  font-size: 11px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Spartan", sans-serif;
+  font-weight: lighter;
+}
+
+.person__sub {
+  font-size: 9px;
+  color: hsl(333, 80%, 67%);
+  font-family: "Spartan", sans-serif;
+  font-weight: lighter;
+}
+.person--description {
+  padding: 12px;
+}
+.person__parrafo {
+  font-size: 10px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Spartan", sans-serif;
+  font-weight: lighter;
+}
+.img_dim {
+  display: grid;
+  width: 35px;
+  align-self: center;
+
+  
+}
+
+.imagen__dimension {
+  display: flex;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+
+.attribution{
+  display: flex;
+  font-size: 12px;
+  justify-content: space-around;
+}
+
+
+
+

@@ -1,0 +1,254 @@
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 293px));
+  justify-content: center;
+  gap: 28px;
+}
+
+
+.post {
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.post-image {
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.post-image img {
+      vertical-align: top;
+      width: 295px;
+      height: 255px;
+
+}
+
+.post-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  width: 295px;
+  height: 255px;
+}
+
+.post:hover .post-overlay {
+  display: flex;
+
+}
+
+.post-likes,
+.post-comments {
+  width: 80px;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14rem;
+}
+
+.main-header {
+  display: grid;
+  border: 1px solid #dbd8d8;
+  height: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.main-nav {
+  display: flex;
+  width: 200px;
+}
+
+.nav-item {
+  font-size: 16rem;
+  margin: 5px;
+}
+
+.main-logo img{
+      width: 100%;
+}
+
+.main-logo{
+      width: 120px;
+}
+
+.main-buscador{
+      display: flex;
+      border: .5px solid #dbdbdb;
+      height: 19px;
+      border-radius: 4px;
+      align-items: center;
+      padding: 5px;
+}
+
+.main-content{
+      display: grid;
+      grid-template-columns: repeat(2,50%);
+      grid-template-rows: 400px ;
+      margin-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+}
+
+
+
+.profile-pic img{
+      width: 85%;
+      border-radius: 50%;
+      width: 145px;
+
+
+}
+.profile-pic{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 90px;
+ 
+}
+
+.fallowers{
+      display: flex;
+}
+
+.f-items{
+      margin-top: 10px;
+      margin-right: 8px;
+      font-size: 16rem;
+}
+
+.name p{
+      height: 25px;
+      font-size: 28rem;
+}
+
+.posts::before{
+      content: "12";
+      font-weight: bold;
+}
+
+
+.fallower::before{
+      content: "639 ";
+      font-weight: bold;
+}
+
+
+.following::before{
+      content: "668 ";
+      font-weight: bold;
+}
+
+.name-container{
+      display: flex;
+      margin-bottom: 10px;
+}
+
+
+
+
+.secundari_name{
+      width: 240px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      font-weight: bold;
+}
+
+.name-button{
+      width: 90px;
+      height: 35px;
+      border-radius: 5px;
+      background-color: white;
+      border: 1px solid  #dbd8d8;
+      cursor: pointer;
+      margin-left: 18px;
+      font-size: 16rem;
+      
+}
+
+
+.description-G {
+          width: 350px;
+          text-align: justify;
+          font-size: 17rem;
+}
+
+.footer{
+      display: flex;
+      height: 45px;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 15px;
+      border: 1px solid #dbdbdb;
+      margin-top: 50px;
+}
+
+.f-zise{
+      font-size: 14rem;
+}
+
+.icon-header-1{
+      background-image: url(/assest/icon/casa.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 25rem;
+      padding: 18px;
+}
+
+.icon-header-2{
+      background-image: url(/assest/icon/enviar.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 25rem;
+      padding: 18px;
+}
+.icon-header-3{
+      background-image: url(/assest/icon/brujula.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 25rem;
+      padding: 18px;
+}
+.icon-header-4{
+      background-image: url(/assest/icon/corazon.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 25rem;
+      padding: 18px;
+}
+
+.icon-header-5{
+      width: 100%;
+      height: 100%;
+
+}
+
+
+
+.icon-header-5 img{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: 2px solid slateblue;
+      padding: 1.5px;
+      
+
+}
+
+.header-nav{
+      display: flex;
+      align-items: center;
+}
+
+.sublist {
+      display: flex;
+
+    }
